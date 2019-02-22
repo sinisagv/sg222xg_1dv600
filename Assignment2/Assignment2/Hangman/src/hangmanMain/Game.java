@@ -50,7 +50,7 @@ public class Game {
 			playGame();
 			break;
 		}
-		System.out.println("The word has now been randomly selected.");
+		System.out.println("The word has now been randomly selected. To quit the game, press any non letter key.");
 		guessedLetters = new char[word.length()];
 		for (int i = 0; i < guessedLetters.length; i++) {
 			guessedLetters[i] = ' ';
